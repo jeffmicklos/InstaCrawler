@@ -42,7 +42,7 @@ def perform_request(id):
 	curl = pycurl.Curl()
 	signature = hmac.new(client_id,IP,sha256).hexdigest()
 	header = '|'.join([IP, signature])
-	header = ["X-Insta-Forwarded-For: " + header]
+	header = ["X-Insta-Forwarded-For " + header]
 
 	post_data = "access_token="+access_token
 	
