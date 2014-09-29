@@ -93,7 +93,7 @@ def like(br, hashtags):
 			print "\tLiked " + str(id)
 			current_likes += 1
 			hashtag_likes += 1
-			time.sleep(random.randrange(30,60))
+			time.sleep(random.randrange(120,130))
 			
 		elif bool(re.search("429", response)):
 			#print response
