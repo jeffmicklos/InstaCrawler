@@ -1,6 +1,6 @@
 InstaCrawler
 ============
-Originally developed by Marclav on github, I modified the code to add my own custom preferences.
+Originally developed by [Marc Laventure](https://github.com/marclave) on github, I modified the code to add my own custom preferences.
   - Removed the need for an external profile.yml and yaml library installation 
   - Ip address is determined by program, WORKS WITH WINDOWS, might not work with Linux or Ubuntu
   - Added the ability to specify custom hashtags via array, vs external file
