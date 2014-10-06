@@ -1,6 +1,6 @@
 InstaCrawler
 ============
-Originally developed by [Marc Laventure](https://github.com/marclave) on github, I modified the code to add my own custom preferences. However, due to Websta.me restrictions, bot can only like 30 pictures an hour. :/ 
+Originally developed by [Marc Laventure](https://github.com/marclave) on github, I modified the code to add my own custom preferences. I built this program to learn my way around HTML requests and API. It is recommended you dont use this to bot since it is against Instagram policies and could lead to your account being locked. Enjoy. 
 
   - Removed the need for an external profile.yml and yaml library installation 
   - Ip address is determined by program, WORKS WITH WINDOWS, might not work with Linux or Ubuntu
