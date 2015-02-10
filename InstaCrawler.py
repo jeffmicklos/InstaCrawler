@@ -77,7 +77,7 @@ def like(br, hashtags):
 		response = br.open(websta_url + "tag/" + str(custom_hashtags[current_tag]))
 		print "Liking #" + str(custom_hashtags[current_tag])
 	
-	media_id = re.findall("span class=\"like_count_(.*)\"", response.read())
+	media_id = re.findall("span id=\"like_count_(.*)\"", response.read())
 	for id in media_id:
 		response = perform_request(id)
 		if current_likes >= max_likes:
